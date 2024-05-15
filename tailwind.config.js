@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{vue,js}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        bitter: ['Bitter', 'serif'],
+      },
+    },
   },
   plugins: [],
 }
